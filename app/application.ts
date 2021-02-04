@@ -1,5 +1,5 @@
-import fastify, { FastifyInstance } from "fastify";
-import { Server, ServerResponse, IncomingMessage } from "http";
+import fastify, { FastifyInstance } from 'fastify';
+import { Server, ServerResponse, IncomingMessage } from 'http';
 
 const server: FastifyInstance<
   Server,
@@ -8,8 +8,8 @@ const server: FastifyInstance<
 > = fastify({ logger: true });
 
 function build() {
-  server.get("/ping", async (request, replay) => {
-    return "pong";
+  server.get('/ping', async (request, replay) => {
+    return 'pong';
   });
   return server;
 }

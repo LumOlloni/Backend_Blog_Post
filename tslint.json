@@ -7,8 +7,8 @@
   ],
   "jsRules": {},
   "rules": {
-    "trailing-coma": [false],
-    "import-name": [false],
+    "trailing-comma": [false],
+
     "variable-name": [false],
     "function-name": [false],
     "no-unsed-expression": [false]
