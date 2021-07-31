@@ -1,7 +1,6 @@
 import "reflect-metadata";
 import { Connection, createConnection } from "typeorm";
 
-
 const connectDb = async (): Promise<Connection> => {
   const connection: Connection = await createConnection({
     type: "mysql",

@@ -19,6 +19,7 @@
     "dotenv": "^10.0.0",
     "fastify": "^3.11.0",
     "fastify-autoload": "^3.8.0",
+    "fastify-swagger": "^4.8.3",
     "mysql": "^2.18.1",
     "nodemon": "^2.0.7",
     "prettier": "^2.2.1",
