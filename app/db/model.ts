@@ -1,5 +1,4 @@
 import { Connection, getConnection } from "typeorm";
-
 class Model {
   private model: Connection;
   constructor() {
