@@ -1,4 +1,4 @@
-import { Connection, getConnection } from "typeorm";
+import { Connection, getConnection } from 'typeorm';
 class Model {
   private model: Connection;
   constructor() {
@@ -6,6 +6,6 @@ class Model {
   }
 }
 
-let model: Model = new Model();
+const model: Model = new Model();
 
 export default model;

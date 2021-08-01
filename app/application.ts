@@ -20,7 +20,7 @@ server.register(FastifySwagger, SwaggerConfig);
 const directoryName = dirname(__filename);
 
 server.register(Autoload, {
-  dir: join(directoryName, `routes`),
+  dir: join(directoryName, "routes"),
   options: { prefix: `/api/${currentVersion}` },
 });
 

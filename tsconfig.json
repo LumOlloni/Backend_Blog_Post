@@ -9,7 +9,7 @@
     "sourceMap": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "strict": true,
+    "strict": false,
     "outDir": "dist",
     "baseUrl": ".",
     "paths": {

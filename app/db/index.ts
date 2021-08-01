@@ -1,17 +1,17 @@
-import "reflect-metadata";
-import { Connection, createConnection } from "typeorm";
+import 'reflect-metadata';
+import { Connection, createConnection } from 'typeorm';
 
 const connectDb = async (): Promise<Connection> => {
   const connection: Connection = await createConnection({
-    type: "mysql",
-    host: "localhost",
+    type: 'mysql',
+    host: 'localhost',
     port: 3306,
-    username: "root",
-    password: "Password@123",
-    database: "blognode",
+    username: 'root',
+    password: 'Password@123',
+    database: 'blognode',
     synchronize: true,
     logging: false,
-    entities: [__dirname + "./entity/*.ts"],
+    entities: [__dirname + '/entities/*.ts'],
   }).catch((err) => err);
   return connection;
 };
